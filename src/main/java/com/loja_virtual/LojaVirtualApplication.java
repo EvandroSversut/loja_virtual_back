@@ -1,10 +1,11 @@
-package com.loja_virtual.loja_virtual;
+package com.loja_virtual;
+
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
-@SpringBootApplication
+@SpringBootApplication  // Isso escaneia automaticamente os pacotes abaixo de "com.loja_virtual"
 @ComponentScan(basePackages = "com.loja_virtual")
 public class LojaVirtualApplication {
 
